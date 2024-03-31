@@ -1,0 +1,125 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 280px;
+    height: 62px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.labelItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+
+.item:hover {
+
+    background-color:var(--bright-gray-color    );
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+
+.labelItem:hover {
+
+    background-color:var(--bright-gray-color    );
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+
+
+
+.item .icon,
+.item .title,
+.item .counter {
+    margin: 0 5px; /* מוסיף מרווח חיצוני קטן בין האלמנטים */
+
+}
+
+.item .icon {
+    color: #BEC4CD;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.labelItem .labelIcon {
+    color: #BEC4CD;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0 10px; /* מוסיף מרווח חיצוני קטן בין האלמנטים */
+}
+
+
+
+.item .counter {
+    background-color: #00A389;
+    color: white;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: 150px;
+    font-size: 12px;
+
+}
+
+
+
+.item .title {
+text-align: left;
+}
+
+
+a {
+    text-decoration: none; /* הסרת ה-underline מכל הקישורים */
+    color: inherit;
+  }
+
+
+.item:active .icon
+{
+    color: #00A389;
+}
+
+.item:active .title
+{
+    color: #00A389;
+    font-weight: 600;
+}
+
+
+
+
+.labelItem:active .title
+{
+    font-weight: 600;
+}

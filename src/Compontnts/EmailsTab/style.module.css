@@ -1,0 +1,27 @@
+.tab {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--bright-gray-color);
+    min-width: 20vw;
+    border-radius: 12px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+
+.search{
+    height: auto;
+    width: 100%;
+}

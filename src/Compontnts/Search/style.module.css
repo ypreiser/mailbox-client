@@ -1,0 +1,54 @@
+
+
+
+
+.searchInput {
+    position: relative; /* מאפשר לנו למקם את האייקון ביחס לקונטיינר הזה */
+    display: flex;
+    align-items: center; /* ממרכז את האייקון וה-input אנכית */
+    background-color: #E4E8EE;
+    border: none;
+    height: 45px;
+    width: 100%; /* או רוחב ספציפי, אם יש צורך */
+    border-radius: 12px;
+    color: var(--text-color);
+
+}
+
+.searchInput input{
+    background-color: transparent; /* שומרים על רקע שקוף כדי שהקונטיינר ישלוט */
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px; /* מתאים את ה-padding להשאיר מקום לאייקון */
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+    border-radius: 12px; /* מוסיף כדי להבטיח עיגול קצוות */
+}
+
+.searchIcon {
+    position: absolute;
+    right: 20px; /* מיקום ימני, בהתאם ל-padding של ה-input */
+    color:#A6ADC1;
+    font-size: 1.2em;
+}
+
+
+.searchIcon:hover {
+cursor: pointer;
+}
+
+
+
+/* הסרת ה-x מתיבת החיפוש */
+.searchInput input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* התאמת הפונט של ה-placeholder */
+.searchInput input[type="search"]::placeholder {
+    color:#A6ADC1;
+    /* הוסף כאן כל הגדרות נוספות לפונט לפי הצורך */
+}

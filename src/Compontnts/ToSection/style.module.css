@@ -1,0 +1,100 @@
+.image img, .fromYou .image img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.imgAndSenderAndSum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+/* הסטיילים עבור הודעות שנשלחו אליך */
+.toYou {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+/* הסטיילים עבור הודעות ששלחת */
+.fromYou {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* יישור האלמנטים למרכז */
+    padding: 10px; /* הוספת ריווחים פנימיים */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sender{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark-color)
+}
+
+.sum{
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray-color);
+}
+
+.date, .time{
+
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray-color);
+}
+
+
+
+
+
+    .imgAndDate{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+    }
+
+
+    .imgAndSender{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px; /* הוספת ריווחים פנימיים */
+        gap: 20px;
+    }
+
+    .message{
+        width: 100%;
+        min-height: 20vh;
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--text-color);
+        white-space: pre-line; /* יגרום לירידות השורה להתקבל באופן ויזואלי */
+
+    }
+
+    .icon{
+        color: #BEC4CD;
+        font-size: 14px;
+    }
+    
+    
+    
+    

@@ -1,0 +1,134 @@
+.container
+{
+  background-color: white;
+  min-width: 40vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 20px;
+  position: relative;
+  
+
+}
+
+.container .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.container .footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+
+
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative; /* הוספתי */
+}
+
+.long {
+  width: 130px;
+  height: 30px;
+  border-radius: 7px;
+  background-color:#f2dea8;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  background-color: #f2dea8;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translate(50%, -50%) rotate(45deg);
+}
+
+.labelTextAndIcon {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icons {
+  display: flex;
+  align-items: center;
+
+
+  gap: 20px;
+  color: var(--gray-color)
+
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--gray-color);
+  height: 100%;
+}
+
+
+.xIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  
+}
+
+
+.icon:hover {
+  color: var(--text-color)
+}
+
+
+
+.date{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-color);
+  text-align: right;
+}
+
+.timeAndTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.messageTitle{
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--dark-color);
+  text-align: left;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+{
+    "inbox": [
+      {
+        "emailId": "1",
+        "sender": "Jessica Koel",
+        "time": "09:25",
+        "message": "Hi, I have a new meeting opportunity...",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/1c688d191905237.Y3JvcCwyODAwLDIxOTAsMCww.png",
+        "unread": true
+      },
+      {
+        "emailId": "2",
+        "sender": "Aya Ava",
+        "time": "09:25",
+        "message": "Hi, thanks for the info, of course we need to...",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aya_Cash_July_14%2C_2014_%28cropped%29.jpg/220px-Aya_Cash_July_14%2C_2014_%28cropped%29.jpg",
+        "unread": false
+      },
+      {
+        "emailId": "3",
+
+        "sender": "John Doe",
+        "time": "09:25",
+        "message": "Good morning! Just wanted to remind everyone about the upcoming deadline...",
+        "image": "https://www.famousbirthdays.com/v/images/640/john-doe-clips_3734.jpg",
+        "unread": true
+      },
+      {
+        "sender": "Alice Smith",
+        "time": "09:25",
+        "message": "Hello team, I've attached the latest report for review.",
+        "image": "https://www.allenovery.com/global/-/media/allenovery/people/s/smith_alice-3025822_web.jpg?rev=775875e5f9f7468d80d067d48da8b4e0&h=624&w=948&la=en-GB&hash=43CD1A181FA691BC99A1D14B17FDD472",
+        "unread": false
+      },
+      {
+        "sender": "Michael Johnson",
+        "time": "09:25",
+        "message": "Hey folks, quick update on the project progress...",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Johnson%2C_Michael_D.jpg",
+        "unread": true
+      },
+      {
+        "sender": "Emily Brown",
+        "time": "09:25",
+        "message": "Morning everyone, let's make sure to finalize the budget today.",
+        "image": "https://ramblinwreck.com/imgproxy/X5IAziUF7z9DvS_07EeuRsEmQboUApOOBn3q1ATKMtg/fit/2500/2500/ce/0/aHR0cHM6Ly9yYW1ibGlud3JlY2suY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIyLzA2L0Jyb3duX0VtaWx5LTc3NngxMDI0LmpwZw.jpg",
+        "unread": false
+      },
+      {
+        "sender": "Daniel Williams",
+        "time": "09:25",
+        "message": "Hi team, just sharing some interesting industry news...",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR340v_-E90dafWCIR91ZhAZ9YGwpRB8uEB4VCVYGwugQ&s",
+        "unread": true
+      },
+      {
+        "sender": "Sophia Miller",
+        "time": "09:25",
+        "message": "Hello all, I'll be out of the office tomorrow for a conference.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRgYElCPMzh-7Fnj4FAt4vmfEL4dIpeKLramkaWNMl2g&s",
+        "unread": false
+      },
+      {
+        "sender": "Ethan Wilson",
+        "time": "09:25",
+        "message": "Good morning! Let's discuss the agenda for the upcoming meeting.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwpUn14LADiB3khUwNKJS9ZwqGAlyVMvJT92FVKLMJfQ&s",
+        "unread": true
+      },
+      {
+        "sender": "Olivia Taylor",
+        "time": "09:25",
+        "message": "Hi everyone, just a friendly reminder about the team building event next week.",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTZjNDljMmMtMTgzZi00MjFmLThjOGEtYmQ5MzdiMzVkMjU0XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "unread": false
+      }
+    ]
+    ,
+    "sentEmails": [],
+    "favourites": [],
+    "drafts": [],
+    "deleted": [],
+    "threads": [
+      {
+        "emailId": "1",
+        "subject": "Meeting with new investors",
+        "participants": ["Jessica Koel", "You"],
+        "messages": [
+          {
+            "sender": "Jessica Koel",
+            "time": "14.09.2020 09:25",
+            "message": "Hi, I have a new meeting opportunity...",
+            "image": "https://www.shape.com/thmb/ogUySuD3fA6mdNl21sq5wMi7g-8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Jessica-Alba-Interview-GettyImages-1242827004-c6ed09b1faa04c9db646700e3afa484e.jpg"
+          },
+          {
+            "sender": "You",
+            "time": "14.09.2020 10:11",
+            "message": "Hi, thanks for the info, of course we need to...",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/05/1200/675/johnny2.jpg?ve=1&tl=1"
+          },
+          {
+            "sender": "Jessica Koel",
+            "time": "Today, 16.09.2020, 11:26",
+            "message": "Hey Jontray,\n\nDo you remember about tomorrow's meeting with new investors?\nHere you have more information about the conference at which we will be together with the client: https://conference.com/agenda/start\n\nRegards,\nJessica",
+            "image": "https://www.shape.com/thmb/ogUySuD3fA6mdNl21sq5wMi7g-8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Jessica-Alba-Interview-GettyImages-1242827004-c6ed09b1faa04c9db646700e3afa484e.jpg"
+          }
+        ]
+      },
+      {
+        "emailId": "2",
+        "subject": "Weekly Team Meeting Reminder",
+        "participants": ["John Doe", "You"],
+        "messages": [
+          {
+            "sender": "John Doe",
+            "time": "15.09.2020 08:30",
+            "message": "Don't forget our weekly meeting today at 10:00 AM.",
+            "image": "https://www.famousbirthdays.com/v/images/640/john-doe-clips_3734.jpg"
+          },
+          {
+            "sender": "You",
+            "time": "15.09.2020 08:45",
+            "message": "Got it, I'll be there.",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/05/1200/675/johnny2.jpg?ve=1&tl=1"
+          }
+        ]
+      },
+      {
+        "emailId": "3",
+        "subject": "Project Update",
+        "participants": ["Alice Smith", "You"],
+        "messages": [
+          {
+            "sender": "Alice Smith",
+            "time": "16.09.2020 09:15",
+            "message": "Here's the latest update on the project...",
+            "image": "https://www.allenovery.com/global/-/media/allenovery/people/s/smith_alice-3025822_web.jpg?rev=775875e5f9f7468d80d067d48da8b4e0&h=624&w=948&la=en-GB&hash=43CD1A181FA691BC99A1D14B17FDD472"
+          },
+          {
+            "sender": "You",
+            "time": "16.09.2020 09:45",
+            "message": "Thanks for the update, looks good.",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/05/1200/675/johnny2.jpg?ve=1&tl=1"
+          }
+        ]
+      }
+    ],
+    "labels": [
+      "Work",
+      "Promising offers",
+      "Work in Progress",
+      "In acceptance",
+      "Read later"
+    ],
+    "contacts": [
+      "Tamara Shevchenko",
+      "Sam Nelson",
+      "Jonas Berger",
+      "Kristian Kurzawa",
+      "Caroline Nixon",
+      "Patrick Kluivert",
+      "Lieke Martens"
+    ]
+  }
